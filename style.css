@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    display: flex;
+    flex: 1;
+}
+a{
+    color: white ;
+    font-size: 40px;
+    display: block;
+    background-color: black;
+    height: 30px;
+    font-weight: bolder;
+    padding: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+.left{
+    height: 50vw;
+    position: relative;
+    top: 6px;
+    width: 27vw;
+    background-color: lightgrey;
+    right: -6px;
+    border-radius: 3%;
+}
+
+.left .menu h2{
+    font-family: "Playwrite GB S", serif;
+    color: black;
+    font-size: 30px;
+    margin-left: 130px;
+
+}
+.left .menu input{
+    height: 26px;
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    width: 72%;
+    border-radius: 4%;
+    border: none;
+}
+.right{
+    margin-left: 10px;
+    height: 50vw;
+    top: 6px;
+    width: 75vw;
+    position: relative;
+    background-color: lavenderblush;
+    border-radius: 3%;
+    
+}
+.right .header{
+    padding: 10px;
+    height: 10px;
+    font-family: "Playwrite GB S", serif;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40vw
+}
+.flexcontainer h1{
+    text-decoration-line: underline;
+}
+.add-icon i{
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    bottom: 10px;
+}
+.add-tasks input{
+    width: 60vw;
+    position: relative;
+    left: 2px;
+    border-radius: 1%;
+    border: 2px solid black;
+    height: 25px;
+}
+.add-icon i{
+    position: relative;
+    bottom: 25px;
+    cursor: pointer;
+}
+#count{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.flexy{
+    display: flex;
+    justify-content: space-evenly;
+}
